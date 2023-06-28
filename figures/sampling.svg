@@ -33,7 +33,8 @@
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     width="280mm" />
+     width="280mm"
+     inkscape:snap-global="false" />
   <defs
      id="defs2">
     <marker
@@ -137,18 +138,11 @@
        x="10.773975"
        y="49.110306" />
     <rect
-       style="fill:#888888;fill-opacity:1;stroke-width:0.799998;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#888888;fill-opacity:1;stroke-width:0.799999;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect2571"
-       width="102.03304"
+       width="185.90015"
        height="10.965112"
        x="66.448456"
-       y="49.110306" />
-    <rect
-       style="fill:#888888;fill-opacity:1;stroke-width:0.799999;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect2573"
-       width="81.252853"
-       height="10.965112"
-       x="169.63176"
        y="49.110306" />
     <rect
        style="fill:#888888;fill-opacity:1;stroke-width:0.799997;stroke-miterlimit:4;stroke-dasharray:none"
@@ -160,9 +154,9 @@
     <rect
        style="fill:#888888;fill-opacity:1;stroke-width:0.799999;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect2577"
-       width="54.825558"
+       width="97.197281"
        height="10.965112"
-       x="104.79989"
+       x="97.112289"
        y="34.263775" />
     <text
        xml:space="preserve"
@@ -189,36 +183,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:9.40281px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584"
-       x="99.242439"
+       x="141.17599"
        y="57.186897"
        id="text9043"><tspan
          sodipodi:role="line"
          id="tspan9041"
          style="font-size:9.40281px;fill:#ffffff;fill-opacity:1;stroke-width:0.264584"
-         x="99.242439"
+         x="141.17599"
          y="57.186897">analyze</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:9.40281px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584"
-       x="118.85223"
-       y="42.31282"
+       x="139.7984"
+       y="43.169083"
        id="text10260"><tspan
          sodipodi:role="line"
          id="tspan10258"
          style="font-size:9.40281px;fill:#ffffff;fill-opacity:1;stroke-width:0.264584"
-         x="118.85223"
-         y="42.31282">mean</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:9.40281px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584"
-       x="200.93344"
-       y="57.186897"
-       id="text10366"><tspan
-         sodipodi:role="line"
-         id="tspan10364"
-         style="font-size:9.40281px;fill:#ffffff;fill-opacity:1;stroke-width:0.264584"
-         x="200.93344"
-         y="57.186897">plot</tspan></text>
+         x="139.7984"
+         y="43.169083">PCA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:9.40281px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584"
@@ -236,6 +219,13 @@
        width="5.6006231"
        height="10.965112"
        x="72.879852"
+       y="34.263775" />
+    <rect
+       style="fill:#888888;fill-opacity:1;stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect13051"
+       width="14.182897"
+       height="10.965112"
+       x="216.21425"
        y="34.263775" />
   </g>
 </svg>
