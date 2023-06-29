@@ -20,7 +20,7 @@ def parse_arguments():
     return parser.parse_args()
 
 
-def integrate(f, a, b, n):
+def integrate_f(f, a, b, n):
     s = []
     for i in range(n):
         dx = (b - a) / n
@@ -34,7 +34,7 @@ def measure_integration_errors(f, F, n_max, a, b):
     errors = []
     for n in range(1, n_max, 10):
         F_analytical = F(b) - F(a)
-        F_numerical = integrate(f, a, b, n)
+        F_numerical = integrate_f(f, a, b, n)
         error = abs(F_analytical - F_numerical)
         errors = errors + [error]
     return errors
