@@ -12,37 +12,22 @@ Exercise:
 
   0. have a look at the different files
   1. install the module
-  3. make sure it can be imported from anywhere:
+  2. make sure it can be imported from anywhere:
     
     cd /
     python -c 'import integrate_f6; print(integrate_f6)'
     
-  4. call the `integrate_f6` function from the Python interpreter after importing the module
-
----
-
-How to install:
-
-The "old" way is to use setup.py:
-
-    python setup.py build
-
-or
-
-    python setup.py build_ext --inplace
-
-to compile the code.
+  3. call the `integrate_f6` function from the Python interpreter after importing the module
+  4. use %timeit to check that is is as fast as expected
 
 ---
 
 The "new" way is to use `pip`:
 
-    pip install --user .
+    pip install .
 
 To just build a distributable bundle:
 
     pip wheel .
 
 This creates a binary "wheel" (zip archive) in `dist/` .
-
----
