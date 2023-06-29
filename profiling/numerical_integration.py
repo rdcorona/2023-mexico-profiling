@@ -1,7 +1,7 @@
 import argparse
 
 import matplotlib.pyplot as plt
-
+import numpy as np 
 
 def parse_arguments():
     parser = argparse.ArgumentParser(
@@ -21,12 +21,15 @@ def parse_arguments():
 
 
 def integrate_f(f, a, b, n):
-    s = []
-    for i in range(n):
-        dx = (b - a) / n
-        x = a + (i + 0.5) * dx
-        y = f(x)
-        s = s + [y * dx]
+    s = 0
+    dx = (b - a) / n #Take dx  off the loop
+    x = ((np.arange(0,n,1) + 0.5) + a) *dx
+    y = f(x)
+    s = s + (y * dx)
+    # for i in range(n):      
+    #   #  x = a + (i + 0.5) * dx
+    #     y = f(a + (i + 0.5) * dx)
+    #     s = s + [y * dx] # Use simple notation
     return sum(s)
 
 
